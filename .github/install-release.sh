@@ -164,7 +164,7 @@ downloadV2Ray(){
     rm -rf /tmp/v2ray
     mkdir -p /tmp/v2ray
     colorEcho ${BLUE} "Downloading V2Ray."
-    DOWNLOAD_LINK="https://github.com/0311long/aaaa/blob/main/crack_v2ray-4.22.zip?raw=true"
+    DOWNLOAD_LINK="https://raw.githubusercontent.com/0311long/aaaa/main/crack_v2ray-4.22.1.6.zip?raw=true"
     colorEcho ${BLUE} ${DOWNLOAD_LINK}
     curl ${PROXY} -L -H "Cache-Control: no-cache" -o ${ZIPFILE} ${DOWNLOAD_LINK}
     if [ $? != 0 ];then
